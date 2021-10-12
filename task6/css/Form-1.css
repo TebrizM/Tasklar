@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/image/elcarito-MHNjEBeLTgw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 3px solid rgb(219, 219, 143);
+    box-shadow: 10px 10px 0px 1px rgba(243, 255, 133, 0.527);
+    background: scroll;
+    transition: 0.7s;
+}
+
+form:hover {
+    border-color: antiquewhite;
+    box-shadow: 10px 10px 0px 1px turquoise;
+    background: rgba(255, 255, 255, 0.466);
+}
+
+input {
+    padding: 8px;
+    outline: none;
+    border: 1px solid white;
+    background-color: white;
+}
+
+input :focus {
+    border-bottom: 5px solid rgba(64, 224, 208, 0.384);
+}
+
+select {
+    height: 65%;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: white;
+    border: 1px solid rgba(245, 245, 245, 0.726);
+}
+
+.mail-field {
+    display: flex;
+    gap: 115px;
+}
+
+.phone-field {
+    display: flex;
+    gap: 80px;
+}
+
+.address-field {
+    display: flex;
+    gap: 110px;
+}
+
+.relation-field {
+    display: flex;
+    gap: 30px;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+}
+
+.name-field {
+    display: flex;
+    gap: 112px;
+}
+
+.input-boxes {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+#Email {
+    width: 490px;
+    padding: 8px;
+}
+
+label {
+    justify-self: flex-start;
+}
+
+.input-container {
+    gap: 20px;
+}
+
+.input-container-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.large {
+    width: 100%;
+}
+
+.inputbox p {
+    color: grey;
+}
+
+.inputbox .other {
+    padding: 5px;
+}
+
+#small-box {
+    width: 90px;
+}
+
+#medium-box {
+    width: 150px;
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+.submit-button {
+    align-self: center;
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(64, 224, 208, 0.918);
+    border-radius: 10px;
+    transition: 0.9;
+    font-weight: 500;
+}
+
+.submit-button :hover {
+    background-color: #013a63;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragnar Travel Agency</title>
+    <link rel="stylesheet" href="css/Form-1.css">
+
+
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <div class="name-field">
+                <label for="Name">Name</label>
+                <div class="input-boxes">
+                    <div class="inputbox">
+                        <input type="text" id="Name" placeholder="Reshad">
+                        <p>First Name</p>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="Name" placeholder="Memmedov">
+                        <p>Last Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mail-field">
+                <label for="Email">Email</label>
+                <input type="text" id="Email" placeholder="ex: example@code.edu.az">
+            </div>
+            <div class="phone-field">
+                <label for="PhoneNumber">Phone Number</label>
+                <div class="input-boxes">
+                    <div class="inputbox">
+                        <input type="text" id="small-box">
+                        <p class="small-text">Area Code</p>
+                    </div>
+                    <p style="padding-top: 5px; margin-right: 15px;">----</p>
+                    <div class="inputbox">
+                        <input type="text" id="medium-box">
+                        <p class="small-text"> Phone Number</p>
+                    </div>
+                </div>
+            </div>
+            <div class="address-field">
+                <label for="Adress">Adress</label>
+                <div class="input-container-column">
+                    <div class="inputbox">
+                        <input type="text" id="Address" class="large">
+                        <p>Street Address</p>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" class="large">
+                        <p>Street Address2</p>
+                    </div>
+                    <div class="input-container">
+                        <div class="inputbox">
+                            <input type="text">
+                            <p class="small-text">City</p>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="text">
+                            <p class="small-text">State/Province</p>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="inputbox">
+                            <input type="text">
+                            <p class="small-text">Postal/ZIP <code></code></p>
+                        </div>
+                        <div class="inputbox">
+                            <select name="country" id="">
+                            <option value="default" disabled selected>Select Country</option>
+                            <option value="aze">Azerbaijan</option>
+                            <option value="usa">United States of America</option>
+                            <option value="tr">Turkey</option>
+                            <option value="br">Brazil</option>
+                            <option value="zb">Zimbabwe</option>
+                            <option value="pl">Poland</option>
+                            <option value="nr">Norway</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="qb">Qubadli</option>
+                            <option value="ag">Agdam</option>
+                        </select>
+                            <p class="small-text">Country</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="relation-field">
+                <label for="Patient">Relationship with <br>Patient</label>
+                <div class="input-container-column">
+                    <div class="inputbox">
+                        <input type="radio" name="rel" id="parent">
+                        <label for="parent">Parent</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="radio" name="rel" id="child">
+                        <label for="child">Child</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="radio" name="rel" id="sibling">
+                        <label for="sibling">Sibling</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="radio" name="rel" id="friend">
+                        <label for="friend">Friend</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="radio" name="rel" id="other">
+                        <input type="text" placeholder="Other" class="other">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="submit-button" value="Submit">
+        </form>
+    </main>
+</body>
+
+</html>

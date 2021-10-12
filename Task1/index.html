@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/stle.css">
+</head>
+
+<body>
+    <section class="general-section">
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <div class="labels">
+                <label for="date">Arrival Date: </label>
+                <label for="nights">Nights: </label>
+                <label for="adults">Adults: </label>
+                <label for="children">Children: </label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="date">
+                <input type="text" id="nights">
+                <input type="number" id="adults" placeholder="0">
+                <input type="number" id="children" placeholder="0">
+            </div>
+        </fieldset>
+        <fieldset class="Preferences-section">
+            <legend>Preferences</legend>
+            <div class="room-section">
+                <label for="room">Room type: </label>
+                <input type="radio" id="Standart" name="room" value="Standart">
+                <label for="Standart">Standart</label>
+
+                <input type="radio" name="room" id="Business" value="Business">
+                <label for="Business">Business</label>
+
+                <input type="radio" name="room" id="Suite" value="Suite">
+                <label for="Suite">Suite</label>
+
+            </div>
+            <div class="bed-section">
+                <label for="bed">Bed type: </label>
+
+                <input type="radio" name="bed" id="King" value="King">
+                <label for="King">King</label>
+
+                <input type="radio" name="bed" id="Double">
+                <label for="Double">Double</label>
+
+            </div>
+            <form>
+                <div class=form2>
+                    <input type="checkbox">
+                    <label for="Smoking">Smoking</label>
+                </div>
+            </form>
+
+
+        </fieldset>
+        <fieldset class="Contact-section">
+            <legend>Contact Information</legend>
+            <div class="labels">
+                <label for="name">Name: </label>
+                <label for="email">Email</label>
+                <label for="phone">Phone</label>
+            </div>
+            <div class="inputs">
+                <input type="text" id="name">
+                <input type="email" id="email">
+                <input type="tel" id="phone">
+            </div>
+
+        </fieldset>
+        <div class="buttons">
+            <input type="submit" id="submit-button" value="Submit Reservation">
+            <input type="reset" id="reset-button" value="Clear">
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>

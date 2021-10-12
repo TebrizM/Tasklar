@@ -1,0 +1,6 @@
+p {
+    display: inline;
+    border-style: solid;
+    border-radius: 5px 6px 7px;
+    border-color: grey;
+}

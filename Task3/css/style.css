@@ -1,0 +1,9 @@
+div {
+    border-style: solid;
+    border-left-color: blue;
+    background-color: rgba(43, 213, 235, 0.24);
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    font-size: xx-large;
+}
